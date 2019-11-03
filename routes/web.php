@@ -16,3 +16,4 @@ Route::get('/', function () {
 });
 
 Route::get('/home','HomeController@show');
+Route::get('/contact','ContactController@show');
